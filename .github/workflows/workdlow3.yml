@@ -12,3 +12,7 @@ jobs:
 
       - name: Print index.js
         run: cat dist/index.js
+        
+run-workflow-4:
+    needs: show-index
+    uses: ./.github/workflows/workflow4.yml
