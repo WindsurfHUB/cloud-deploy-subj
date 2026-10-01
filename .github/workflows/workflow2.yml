@@ -1,0 +1,11 @@
+name: Workflow 2
+
+on:
+  workflow_call:
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello world
+        run: echo "Hello world!"
